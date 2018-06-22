@@ -11,3 +11,15 @@ const newNumberArray = [...numberArray, newNumber];
 
 console.log(newNumberArray );
 
+const bowler = {
+    name: 'Erin',
+    score: 123
+};
+
+const updatedBowler = {
+    ...bowler,
+    score: 167
+}
+
+console.log(updatedBowler);
+
